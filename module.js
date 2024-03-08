@@ -56,3 +56,22 @@ readFile('./module.js','utf8',(err,result)=>{
     console.log('success')
   }
 })
+//using promises
+/* const {readFile,writeFile} = require('fs').promises
+
+
+
+const start = async ()=>{
+  
+  try{
+    const first = await readFile('./file.txt','utf8')
+    await writeFile('./file.txt','using the promises',{flag:'a'})
+    console.log(first)
+
+  }
+  catch(error){
+    console.log('error')
+  }
+  }
+
+start() */

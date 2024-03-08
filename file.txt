@@ -1,0 +1,1 @@
+const file ='this is the file to be read'this is the added textthis is the added textusing the promises
